@@ -39,6 +39,8 @@ Study:
 states -> Production, staging
 diff ->
 run Particular resoruce ->
- 
 
+############################
+Project 2 -> Website deploy with highavaility and load balancer
+Loadbalancer-> auto-Scailing Group(Ec2)-> Load test
 
