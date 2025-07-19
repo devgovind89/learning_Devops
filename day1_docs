@@ -1,0 +1,44 @@
+
+
+
+GUI -> youtube vedio
+EC2-> LB -> Route53 -> EKS
+
+Production ->
+Terraform/cloudformation(AWS)/Azure(ARM templates)
+
+Project 1 -> 
+Snario1 ->Developer has request to spin/create on dev EC2 in AWS. (Very easy)
+Snario2 -> I need another 2 machines (moderate)
+Snario3 -> I need another 10 machines (heavy)
+Snario4 -> My task is done, please delete all of them. 
+(VPC, RDS, LB, Autoscailing(Billing $50), Template, EBS, S3, SQS, cloutwatch,SNS, Kafka) 
+
+Focus -> Create 3 EC2 machines via Terraform, and delete them.
+CI/CD (Jenkin/Github Actions/Azure Devops pipeline/AWS codepipeline/Gitlab)
+
+
+Project 2 -> 
+Production Level implement: 
+
+Code -> Github/Gitlab/Azure develop(Branch stragies(main/stage/development) -> PR(Pull request) -> CI/CD -> Monitoring
+
+###############################
+Terraform -> 
+
+Terraform init, plan(DRY), apply
+
+Production (Level) : Infrastructure as code(IAC)
+-> Environments ->
+Development, staging , Production (Same environment)
+Ec2,VPC,RDS -> Modules( repeatable task)
+-> tf.state file -> Memory which remember the state of resoruces. -> Cloud(AWS -> s3, Azure - Blobe storage)
+-> locking system -> It allow to work at a time.Two developer (Lock)-> Dynomdb (table), Azure -> CosmoDB
+
+Study: 
+states -> Production, staging
+diff ->
+run Particular resoruce ->
+ 
+
+
